@@ -1,0 +1,43 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-70%);
+  font-size: 15px;
+  font-family: 'Poppins';
+}
+navbar-toggle {
+  margin-top: 23px;
+  padding: 9px 10px !important;
+}
+@media (min-width: 768px) {
+  .navbar-nav>li>a {
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 27px;
+    list-style: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navbar-nav.navbar-center {
+    position: static;
+    color: #fff;
+    transform: none;
+    font-size: 1em;
+  }
+}
